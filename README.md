@@ -56,6 +56,25 @@ Perfect for IoT projects, smart devices, and first-time WiFi setup systems.
 3. Go to **Sketch** → **Include Library** → **Add .ZIP Library**
 4. Select the downloaded ZIP file
 
+---
+
+## ⚠️ IMPORTANT: Partition Scheme Configuration ⚠️
+
+> **🔴 CRITICAL STEP - DO NOT SKIP! 🔴**
+>
+> After installing the library, you **MUST** change the partition scheme to avoid compilation or runtime errors.
+>
+> ### Required Steps:
+>
+> 1. In Arduino IDE, go to **Tools** → **Partition Scheme**
+> 2. **Change from:** `Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)`
+> 3. **Change to:** `Huge APP (3MB No OTA/1MB SPIFFS)`
+>
+> **Why is this necessary?**  
+> This library uses both WiFi and Bluetooth simultaneously, which requires more program space than the default partition scheme allows. Without this change, your sketch may fail to compile or upload.
+
+---
+
 ## Quick Start
 
 ```cpp
