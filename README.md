@@ -7,7 +7,7 @@
 [![Arduino](https://img.shields.io/badge/Arduino-Compatible-00979D?style=flat&logo=arduino)](https://www.arduino.cc/)
 [![ESP32](https://img.shields.io/badge/Platform-ESP32-E7352C?style=flat&logo=espressif)](https://www.espressif.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/Aatiqur/EZConnect)
+[![Version](https://img.shields.io/badge/version-1.2.1-blue.svg)](https://github.com/Aatiqur/EZConnect)
 
 *Simplify WiFi provisioning with Classic Bluetooth or BLE on ESP32 boards*
 
